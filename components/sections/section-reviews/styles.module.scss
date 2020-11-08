@@ -1,0 +1,66 @@
+.root {
+	padding: 120px 80px;
+	background-color: #f5f5f5;
+	display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.reviewCard {
+	position: relative;
+    width: 296px;
+    padding: 56px 32px 32px;
+	background-color: transparent;
+	border: 1px solid #4e4e4e;
+
+	.quotes {
+		position: absolute;
+		padding-left: 17px;
+		padding-right: 17px;
+		background-color: #f5f5f5;
+	}
+
+	.quotes-straight {
+		top: -10px;
+		left: 38px;
+	}
+
+	.quotes-inverse {
+		transform: rotate(180deg);
+		bottom: -10px;
+		right: 38px;
+	}
+}
+
+.review-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .review-text {
+        color: #4E4E4E;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 58px;
+    }
+
+    .review-footer {
+        display: flex;
+        justify-content: flex-start;
+
+        .review-author {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-left: 12px;
+
+            p {
+                font-size: 12px;
+            }
+
+            span {
+                font-size: 10px;
+            }
+        }
+    }
+}

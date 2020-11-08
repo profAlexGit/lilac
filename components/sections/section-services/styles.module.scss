@@ -1,0 +1,19 @@
+.root {
+    padding: 64px 80px;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    
+    .main {
+        max-width: 60%;
+        color: #FFFFFF;
+
+        p {
+            color: #AFAFAF;
+            font-size: 14px;
+            line-height: 17px;
+            margin-top: 24px;
+            margin-bottom: 48px;
+        }
+    }
+}

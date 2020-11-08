@@ -1,0 +1,45 @@
+.root {
+	// padding: 22px 80px 80px;
+	.nav {
+	display: flex;
+	overflow: hidden;
+	height: 100px;
+	width: 100%;
+	justify-content: space-between;
+	padding: 0 80px;
+	background-color: #F5F5F5; 
+
+	.logo {
+		align-items: center;
+		margin-right: 50px;
+		align-self: center;
+		
+		@media (max-width: 959.57px) {
+			margin-right: 0;
+		}
+	}
+
+	.navigation {
+		display: flex;
+		flex: 1;
+		justify-content: flex-start;
+		align-items: center;
+		margin-left: 20px;
+		color: #595959;
+
+		a {
+			display: inline-block;
+			// height: 30px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+		}
+
+		a:not(:last-child) {
+			margin-right: 42px;
+			
+		}
+	}
+}
+}
+
+

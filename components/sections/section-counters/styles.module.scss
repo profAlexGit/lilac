@@ -1,0 +1,37 @@
+.root {
+	background-color: #F5F5F5;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-bottom: 120px;
+}
+
+.counterCard {
+	padding-bottom: 25px;
+	border-bottom: 2px solid #cccccc;
+	width: 239px;
+	.count {
+		font-weight: bold;
+		font-size: 48px;
+		line-height: 57px;
+		color: #0b132a;
+	}
+
+	.iconCount {
+		display: flex;
+		justify-content: flex-start;
+		margin-top: 13px;
+
+		img {
+			margin-right: 14.67px;
+		}
+
+		.iconText {
+			font-size: 18px;
+			line-height: 30px;
+			color: #4f5665;
+			text-transform: capitalize;
+		}
+	}
+}

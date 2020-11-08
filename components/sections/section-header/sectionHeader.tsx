@@ -1,5 +1,5 @@
 import {FC} from 'react';
-import {LinkBtn, Title} from '../../../ui';
+import {LinkBtn} from '../../../ui';
 import styles from './styles.module.scss';
 
 const SectionHeader: FC = () => {

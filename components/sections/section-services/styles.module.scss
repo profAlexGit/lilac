@@ -15,5 +15,19 @@
             margin-top: 24px;
             margin-bottom: 48px;
         }
+
+         @media (max-width: 660px) {
+            max-width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    img {
+        @media (max-width: 660px) {
+            display: none;
+        }
     }
 }

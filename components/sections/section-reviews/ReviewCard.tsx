@@ -1,14 +1,15 @@
 import {FC} from 'react';
 import {ReviewContent} from './ReviewContent';
 import styles from './styles.module.scss';
+import {IReviewContent} from './types';
 
-const ReviewCard: FC = () => {
+const ReviewCard: FC<IReviewContent> = ({review}) => {
 	return (
-		<div className={styles.reviewCard}>
+		<div className={styles.reviewCard} id={review.id.toString()}>
 			<div className={`${styles.quotes} ${styles['quotes-straight']}`}>
 				<img src="\assets\sections\reviews\quotes.jpg" alt="" />
 			</div>
-                <ReviewContent />
+			<ReviewContent {...review} />
 			<div className={`${styles.quotes} ${styles['quotes-inverse']}`}>
 				<img src="\assets\sections\reviews\quotes.jpg" alt="" />
 			</div>

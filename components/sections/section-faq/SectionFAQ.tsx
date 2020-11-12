@@ -1,16 +1,15 @@
-import { FC, useState } from "react";
+import {FC, useState} from 'react';
 import styles from './styles.module.scss';
-import { TabContent } from "./TabContent";
+import {TabContent} from './TabContent';
 
 const SectionFAQ: FC = () => {
+	const [activeTab, setActiveTab] = useState(0);
 
-    const [activeTab, setActiveTab] = useState(0);
+	const changeTabHandler = (id: number) => {
+		setActiveTab(id);
+	};
 
-    const changeTabHandler = (id: number) => {
-        setActiveTab(id);
-    };
-
-    return (
+	return (
 		<div className={styles.root}>
 			<div className={styles.header}>
 				<h2>Вопросы</h2>
@@ -43,6 +42,6 @@ const SectionFAQ: FC = () => {
 			<TabContent id={activeTab} />
 		</div>
 	);
-}
+};
 
 export {SectionFAQ};

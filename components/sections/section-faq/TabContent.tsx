@@ -66,7 +66,7 @@ const payment: ITabContentItem[] = [
 
 const data = [aboutWork, primary, payment];
 
-const TabContent: FC<ITabContentId> = ({id}) => {
+const TabContent: FC<ITabContentId> = ({id, display}) => {
 	const renderTabContent = ({num, question, answer}: ITabContentItem, key: number) => {
 		return (
 			<div key={key} className={styles.tabItem}>
@@ -80,7 +80,7 @@ const TabContent: FC<ITabContentId> = ({id}) => {
 		);
 	};
 
-	return <div className={styles.content}>
+	return <div className={`${styles.content} ${display ? styles.tabContentDisplay : ''}`}>
         {data[id].map((content, index) => {
             return renderTabContent(content, index)
         })}

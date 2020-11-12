@@ -1,5 +1,6 @@
 export interface ITabContentId {
-	id: number;
+    id: number;
+    display?: boolean;
 }
 
 export interface ITabContentItem {

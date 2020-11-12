@@ -21,7 +21,13 @@ const SectionFAQ: FC = () => {
 						Как мы работаем
 					</div>
 
-					<TabContent id={activeTab} display={activeTab === 0 ? true : false} />
+					<div
+						className={`${styles.tabContentDisplay} ${
+							activeTab === 1 ? styles.display : ''
+						}`}
+					>
+						<TabContent id={activeTab} />
+					</div>
 
 					<div
 						className={`${styles.tab} ${activeTab === 1 ? styles.activeTab : ''}`}
@@ -29,14 +35,28 @@ const SectionFAQ: FC = () => {
 					>
 						Основные
 					</div>
-					<TabContent id={activeTab} display={activeTab === 1 ? true : false} />
+
+					<div
+						className={`${styles.tabContentDisplay} ${
+							activeTab === 1 ? styles.display : ''
+						}`}
+					>
+						<TabContent id={activeTab} />
+					</div>
 					<div
 						className={`${styles.tab} ${activeTab === 2 ? styles.activeTab : ''}`}
 						onClick={() => changeTabHandler(2)}
 					>
 						Оплата
 					</div>
-					<TabContent id={activeTab} display={activeTab === 2 ? true : false} />
+
+					<div
+						className={`${styles.tabContentDisplay} ${
+							activeTab === 1 ? styles.display : ''
+						}`}
+					>
+						<TabContent id={activeTab} />
+					</div>
 				</div>
 			</div>
 			<TabContent id={activeTab} />

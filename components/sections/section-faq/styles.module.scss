@@ -133,20 +133,22 @@
 		}
 
 		@media (max-width: 500px) {
-            display: none;
-            
-            .tabItem {
-                width: 100%;
-                margin-bottom: 32px;
-                .tabItem-question {
-                    justify-content: center;
-                }
+			display: none;
 
-            }
+			.tabItem {
+				width: 100%;
+				margin-bottom: 32px;
+				.tabItem-question {
+					justify-content: center;
+				}
+			}
 		}
-    }
-    
-    .tabContentDisplay {
-        display: block;
-    }
+	}
+}
+
+.tabContentDisplay {
+	display: none;
+	@media (max-width: 500px) {
+		display: block;
+	}
 }

@@ -99,6 +99,7 @@ const Slider: FC = () => {
 	for (let i = 0; i < pages; i++) {
 		indicators.push(
 			<div
+				key={i}
 				className={`${styles.indicator} ${
 					i === currentPage ? styles['indicator-active'] : ''
 				}`}
@@ -134,7 +135,6 @@ const Slider: FC = () => {
 					<img src="\assets\sections\reviews\left_arrow.svg" alt="left arrow" />
 				</button>
 				<div className={styles.indicators}>{indicators.map((indicator) => indicator)}</div>
-				{/* {indicators.map((indicator) => indicator)} */}
 				<button
 					className={styles.arrowBtn}
 					disabled={currentPage === pages - 1}

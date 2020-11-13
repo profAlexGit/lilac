@@ -1,5 +1,5 @@
 import {MainLayout} from '../components/mainLayout';
-import {SectionHeader, SectionCounters, SectionServices, SectionReviews, SectionAbout, SectionFAQ} from '../components/sections';
+import {SectionHeader, SectionCounters, SectionServices, SectionReviews, SectionAbout, SectionFAQ, SectionFooter} from '../components/sections';
 import styles from './styles.module.scss';
 
 export default function Home() {
@@ -11,6 +11,7 @@ export default function Home() {
 			<SectionReviews />
 			<SectionAbout />
 			<SectionFAQ />
+			<SectionFooter />
 		</MainLayout>
 	);
 }

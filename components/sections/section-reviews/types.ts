@@ -1,5 +1,5 @@
 export interface IReviewCard {
-    id: number;
+    _id: number;
     text: string;
     avatar: string;
     name: string;

@@ -27,6 +27,10 @@ const MainLayout: FC<any> = ({children}) => {
 						</Link>
 					))}
 				</div>
+				<div className={styles.telephone}>
+					<img src="/assets/telephone.svg" alt="telphone" />
+					<span>+7 969 656 78 59</span>
+				</div>
 				<Avatar />
 			</nav>
 			<main>{children}</main>

@@ -2,7 +2,7 @@ export interface IReviewCard {
     id: number;
     text: string;
     avatar: string;
-    author: string;
+    name: string;
     date: string;
 };
 

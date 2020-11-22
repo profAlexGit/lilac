@@ -38,8 +38,22 @@
 				margin-right: 42px;
 			}
 
-			@media(max-width: 670px) {
+			@media (max-width: 670px) {
 				display: none;
+			}
+		}
+
+		.telephone {
+			display: flex;
+			align-self: center;
+			margin-right: 48px;
+
+			img {
+				margin-right: 11px;
+			}
+
+			span {
+				color: #595959;
 			}
 		}
 	}

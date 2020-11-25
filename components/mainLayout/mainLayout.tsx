@@ -4,15 +4,16 @@ import Avatar from '../avatar';
 import styles from './styles.module.scss';
 
 const navLinks = [
+	{title: 'Каталог', path: '/catalog'},
 	{title: 'Исполнители', path: '/executors'},
 	{title: 'Отзывы', path: '/reviews'},
 	{title: 'FAQ', path: '/FAQ'},
 ];
 
-const MainLayout: FC<any> = ({children}) => {
+const MainLayout: FC<any> = ({children, navColor}) => {
 	return (
 		<div className={styles.root}>
-			<nav className={styles.nav}>
+			<nav className={`${styles.nav} ${navColor ? styles.navWhite : ''}`}>
 				<div className={styles.logo}>
 					<Link href={'/'}>
 						<a>
@@ -33,7 +34,7 @@ const MainLayout: FC<any> = ({children}) => {
 				</div>
 				<Avatar />
 			</nav>
-			<main>{children}</main>
+			<main className={styles.main}>{children}</main>
 		</div>
 	);
 };

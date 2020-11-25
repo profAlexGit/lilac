@@ -22,10 +22,6 @@ const SectionReviews: FC = () => {
 			<div className={styles.header}>
 				<div className={styles['header-text']}>
 					<h2>Отзывы</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-						tempor incididunt.
-					</p>
 				</div>
 
 				<div className={styles['desktop-btn']}>

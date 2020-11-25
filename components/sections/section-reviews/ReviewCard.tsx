@@ -4,7 +4,6 @@ import styles from './styles.module.scss';
 import {IReviewContent} from './types';
 
 const ReviewCard: FC<IReviewContent> = ({review}) => {
-	debugger
 	return (
 		<div className={styles.reviewCard} id={review._id.toString()}>
 			<div className={`${styles.quotes} ${styles['quotes-straight']}`}>

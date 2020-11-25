@@ -92,7 +92,6 @@ interface IReviews {
 } 
 
 const Slider: FC<IReviews> = ({reviews}) => {
-	debugger
 	const width = useWindowWidth();
 
 	let elemOnPage = getElemOnPage(width);

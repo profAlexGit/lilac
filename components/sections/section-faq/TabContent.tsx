@@ -7,60 +7,60 @@ const aboutWork: ITabContentItem[] = [
 		num: 1,
 		question: 'Оформление заявки',
 		answer:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat, viverra et faucibus vitae et morbi. Quisque in ac arcu euismod. Adipiscing eget nibh lectus mattis sed feugiat id lorem sit. Sed integer faucibus vivamus gravida. Est molestie placerat lacus vel morbi nulla tempor. Libero, ipsum lectus et velit pellentesque adipiscing dui.',
+			'Для передачи заявки на изготовление памятника в работу, Вам нужно выбрать тип памятника, задать параметры и отправить макет Исполнителям Вашего региона.',
 	},
 	{
 		num: 2,
 		question: 'Выбор исполнителя',
 		answer:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat, viverra et faucibus vitae et morbi. Quisque in ac arcu euismod. Adipiscing eget nibh lectus mattis sed feugiat id lorem sit. Sed integer faucibus vivamus gravida. Est molestie placerat lacus vel morbi nulla tempor. Libero, ipsum lectus et velit pellentesque adipiscing dui.',
+			'В течении суток Вам поступят предложения от нескольких Исполнителей Вашего региона. Вам остается только выбрать фирму-изготовителя с приемлемой ценой, сроками, портфолио (образцами работ).',
 	},
 	{
 		num: 3,
 		question: 'Заключение договора',
-		answer:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat, viverra et faucibus vitae et morbi. Quisque in ac arcu euismod. Adipiscing eget nibh lectus mattis sed feugiat id lorem sit. Sed integer faucibus vivamus gravida. Est molestie placerat lacus vel morbi nulla tempor. Libero, ipsum lectus et velit pellentesque adipiscing dui.',
+		answer: 'После выбора Исполнителя, Вы сможете напрямую общаться с ним по всем важным моментам: заключение договора, порядок оплаты, корректировки по заказу.',
 	},
 ];
 
 const primary: ITabContentItem[] = [
 	{
 		num: 1,
-		question: 'Вопрос 1',
+		question: 'Как узнать окончательную цену на памятник, чтобы больше не доплачивать?',
 		answer:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat, viverra et faucibus vitae et morbi. Quisque in ac arcu euismod. Adipiscing eget nibh lectus mattis',
+			'Предложения от Исполнителя поступают к Вам по принципу «все включено», учитывая в том числе Ваши пожелания по доставке и установке. Цена исполнения может подлежать корректировке только, если Вы сами этого захотите и внесете дополнения в работу, выбранной фирмы-изготовителя или подадите новую заявку на сайте.',
 	},
 	{
 		num: 2,
-		question: 'Вопрос 2',
+		question:
+			'Живу в другом городе. Нет возможности приехать. Могу ли я заказать на Вашем сервисе памятник и быть уверенным в точном исполнении заказа?',
 		answer:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat, viverra et faucibus vitae et morbi. Quisque in ac arcu euismod. Adipiscing eget nibh lectus mattis sed feugiat id lorem sit. Sed integer faucibus vivamus gravida. Est molestie',
+			'Через наш сервис делаете заказ в регионе захоронения. Выбирайте Исполнителя, заключайте договор, разбивайте заказ на этапы, смотрите видео или фото отчеты от ходе работ, оплачивайте услуги по принципу «безопасная сделка» (см. раздел Оплата)',
 	},
 	{
 		num: 3,
-		question: 'Вопрос 3',
-		answer:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat, viverra et faucibus vitae et morbi. Quisque in ac arcu euismod. Adipiscing eget nibh lectus mattis sed feugiat id lorem sit. Sed integer faucibus vivamus gravida.',
+		question: 'Чем Ваш сервис лучше других? Какую проблему он помогает решить?',
+		answer: 'Наш сервис является единственным в России, где условия диктует не фирма, оказывающая услугу, а Заказчик, который получает широкий выбор, исходя из своих пожеланий. Вы экономите массу времени на объезд/обзвон большого количества Исполнителей, избегаете манипуляций с ценой, получая цену «под ключ». Сервис совершенно бесплатно решаем поставленную Вами задачу.',
 	},
 ];
 const payment: ITabContentItem[] = [
 	{
 		num: 1,
-		question: 'Pay 1',
+		question: 'Какова стоимость услуг сервиса по поиску наилучшего варианта памятника? ',
 		answer:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat, viverra et faucibus vitae et morbi. Quisque in ac arcu euismod. Adipiscing eget nibh lectus mattis sed feugiat id lorem sit. Sed integer faucibus vivamus gravida. Est molestie placerat lacus vel morbi nulla tempor. Libero, ipsum lectus et velit pellentesque adipiscing dui.',
+			'Для Заказчика поиска лучшего предложения на изготовление памятника на место захоронения -  услуги нашего сервиса абсолютно бесплатны.',
 	},
 	{
 		num: 2,
-		question: 'Pay 2',
+		question: 'Что такое оплата по принципу «безопасная сделка»?',
 		answer:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat, viverra et faucibus vitae et morbi. Quisque in ac arcu euismod. Adipiscing eget nibh lectus mattis sed feugiat id lorem sit. Sed integer faucibus vivamus gravida. Est molestie placerat lacus vel morbi nulla tempor. Libero, ipsum lectus et velit pellentesque adipiscing dui.',
+			'После создания заказа, на карте заказчика блокируется нужная сумма. После подтвереждения выполнения заказа заказчиком сервис автоматически переводит оплату исполнителю',
 	},
 	{
 		num: 3,
-		question: 'Pay 3',
+		question:
+			'Могу ли я использовать принцип оплаты «безопасная сделка», если предусматривается предоплата?',
 		answer:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat, viverra et faucibus vitae et morbi. Quisque in ac arcu euismod. Adipiscing eget nibh lectus mattis sed feugiat id lorem sit. Sed integer faucibus vivamus gravida. Est molestie placerat lacus vel morbi nulla tempor. Libero, ipsum lectus et velit pellentesque adipiscing dui.',
+			'По договоренности с Исполнителем оплату услуг можно разбить на этапы. Согласно договора на оказание услуг, Вы перечисляете предоплату Исполнителю. Исполнитель выполняет очередной этап и предоставляет Вам отчет об исполнении (видео/фото отчет или выезд на место). Вы подтверждаете качественное исполнение работ и сервис дает команду Кассе на оплату оставшейся/очередной суммы.',
 	},
 ];
 

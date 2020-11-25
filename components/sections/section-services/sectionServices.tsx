@@ -9,15 +9,14 @@ const SectionServices: FC = () => {
 			<div className={styles.main}>
 				<h2>Памятники</h2>
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-					incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-					nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-					Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-					fugia.
+					Выбор памятника – это процесс с которому люди подходят обдуманно и скурпулёзно.
+					В этом разделе Вы сделаете выбор, правильность которого будет доказана
+					десятилетиями. Мы предложим Вам широкий выбор, исходя из желаемых типа, размеров
+					и материала памятника.
 				</p>
 				<LinkBtn href="/" label="Выбрать" />
 			</div>
-            <img src="/assets/sections/services/monument.svg" alt="Изображение памятника"/>
+			<img src="/assets/sections/services/monument.svg" alt="Изображение памятника" />
 		</div>
 	);
 }
